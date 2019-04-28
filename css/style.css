@@ -121,16 +121,6 @@ Slide In Panel - by CodyHouse.co
   left: 0;
 }
 
-.cd-panel--is-visible .cd-panel__header {
-  -webkit-transition: -webkit-transform 0.3s 0.3s;
-  transition: -webkit-transform 0.3s 0.3s;
-  transition: transform 0.3s 0.3s;
-  transition: transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
-  -webkit-transform: translateY(0px);
-      -ms-transform: translateY(0px);
-          transform: translateY(0px);
-}
-
 @media only screen and (min-width: 768px) {
   .cd-panel__header {
     width: 70%;
@@ -147,7 +137,6 @@ Slide In Panel - by CodyHouse.co
   position: absolute;
   top: 0;
   right: 0;
-  height: 100%;
   width: 60px;
   /* image replacement */
   display: inline-block;

@@ -13,10 +13,10 @@
     //close panel when clicking on 'x' or outside the panel
     panel.addEventListener('click', function(ev){
       console.log('tar', ev.target)
-					if( hasClass(ev.target, 'js-cd-close') || hasClass(ev.target, panelClass)) {
-						event.preventDefault();
-						removeClass(panel, 'cd-panel--is-visible');
-					}
+      if( hasClass(ev.target, 'js-cd-close') || hasClass(ev.target, panelClass)) {
+        event.preventDefault();
+        removeClass(panel, 'cd-panel--is-visible');
+      }
     });
   }
 	
